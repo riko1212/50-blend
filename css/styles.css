@@ -29,6 +29,12 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
+
+.title {
+  font-size: 36px;
+  line-height: 1.47;
+}
+
 .list {
   list-style: none;
 }
@@ -58,7 +64,43 @@ ul {
   line-height: 1.25;
   color: var(--main-text-color);
 }
-.title {
-  font-size: 36px;
-  line-height: 1.47;
+
+/* hero */
+.hero {
+  padding-top: 220px;
+  padding-bottom: 335px;
+  background-color: var(--second-text-color);
+}
+
+.hero-title {
+  max-width: 175px;
+  margin: 0 auto 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--second-title-color);
+}
+
+.hero-text {
+  max-width: 829px;
+  margin: 0 auto 50px;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 1.33;
+  text-align: center;
+  color: var(--second-title-color);
+}
+
+.hero-btn {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 13px 36px 15px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--main-text-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
 }
